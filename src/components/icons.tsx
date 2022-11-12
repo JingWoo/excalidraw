@@ -1399,6 +1399,20 @@ export const FontSizeExtraLargeIcon = createIcon(
   modifiedTablerIconProps,
 );
 
+export const FontFamilyChineseIcon = createIcon(
+  <>
+    <g
+      stroke="currentColor"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M10 0 L2.5 20 L17.5 20 Z" />
+    </g>
+  </>,
+  modifiedTablerIconProps,
+);
+
 export const FontFamilyNormalIcon = createIcon(
   <>
     <g
